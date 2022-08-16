@@ -19,7 +19,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://Leeje98.github.io/react-test",
   "plugin": [
     "texting-library",
     "jest-dom"
@@ -46,5 +45,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "homepage": "http://Leeje98.github.io/react-test"
 }
