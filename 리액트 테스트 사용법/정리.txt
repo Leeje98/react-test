@@ -1,0 +1,90 @@
+TDD(Test Driven Denelopment) : 테스트 주도 개발
+
+RTL(React Testing Library) : React 구성요소 작업을 API를 추가하여 DOM Testing Library 위에 구축
+
+
+- npm i --save-dev @testing-library/react
+- npm i --save-dev @testing-library/jest-dom
+                     ㄴ 리액트 앱 패키지 설치 시 이미 설치 되어있음
+
+- 프로젝트 생성 (npx create-react-app 프로젝트이름) <-이걸 햇을때 위에 설치 생략가능
+- npm test
+- a / f
+
+참고) plugin설치 : ESlint, Prettier
+package.json
+{
+"plugin": [
+  "testing-library",
+  "jest-dom"
+},
+
+"extends": [
+  "react-app",
+  "react-app/jest",
+  "plugin:testing-library/react",
+  "plugin:jest-dom/recommended"
+]
+}
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+TDD(Test Driven Development) : 테스트 주도 개발
+
+​
+
+RTL(React Testing Library) : 
+
+     React 구성요소 작업을 API를 추가하여 DOM Testing Library위에 구축
+
+​
+
+- npm i --save-dev @testing-library/react
+
+- npm i --save-dev @testing-library/jest-dom
+
+​
+
+- 프로젝트 생성 (npx create-react-app 프로젝트이름)
+
+- npm test
+
+- a / f
+
+​
+
+참고) plugin설치 : ESlint, Prettier
+
+package.json
+
+{
+
+"plugin": [
+
+  "testing-library",
+
+  "jest-dom"
+
+],
+
+​
+
+"extends": [
+
+  "react-app",
+
+  "react-app/jest",
+
+  "plugin:testing-library/react",
+
+  "plugin:jest-dom/recommended"
+
+]
+
+}
